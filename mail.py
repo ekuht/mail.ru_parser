@@ -7,8 +7,8 @@ import csv
 
 # Подключение к почтовому серверу Mail.ru
 IMAP_SERVER = "imap.mail.ru"
-EMAIL_ACCOUNT = "k_kuhta@mail.ru"  # Замените на ваш email
-PASSWORD = "0fh6Rj1cFybEhJuwak6Y"  # Замените на ваш пароль
+EMAIL_ACCOUNT = ""  # Замените на ваш email
+PASSWORD = ""  # Замените на ваш пароль
 
 # Подключение и аутентификация
 mail = imaplib.IMAP4_SSL(IMAP_SERVER)
